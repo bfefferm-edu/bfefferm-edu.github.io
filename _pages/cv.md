@@ -10,5 +10,4 @@ toc:
   sidebar: left
 ---
 
-
-<iframe src="../assets/pdf/CV_BF_Website.pdf" width="100%" height="600px"></iframe>
+![PDF](../assets/pdf/CV_BF_Website.pdf)
