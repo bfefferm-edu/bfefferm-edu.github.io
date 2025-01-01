@@ -2,11 +2,14 @@
  * CV shared styles
  *****************************/
 
-/* Styling the embedded PDF object */
-.pdf-embed {
-  border: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* PDF Embed Styling */
+embed {
+  width: 100%;
+  height: 600px;
   border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
 table.table-cv {
