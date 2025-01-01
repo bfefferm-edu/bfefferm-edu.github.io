@@ -2,8 +2,11 @@
  * CV shared styles
  *****************************/
 
-div.container-link-button {
-  margin-right: 0.5rem;
+/* Styling the embedded PDF object */
+.pdf-embed {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 table.table-cv {

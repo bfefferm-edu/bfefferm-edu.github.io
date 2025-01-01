@@ -10,4 +10,4 @@ toc:
   sidebar: left
 ---
 
-![PDF](../assets/pdf/CV_BF_Website.pdf)
+<embed src="../assets/pdf/CV_BF_Website.pdf" width="800px" height="600px" type="application/pdf">
