@@ -3,7 +3,7 @@
  * License – Fonts: SIL OFL 1.1, Codes: MIT License, Icons: CC BY 4.0
  */
 
-@font-face {
+/*@font-face {
   font-family: "Scholar Icons";
   src: url("../fonts/scholar-icons.eot");
   src:
@@ -27,7 +27,7 @@
   text-rendering: auto;
   text-transform: none;
   line-height: 1;
-}
+}*/
 
 .si-1x {
   font-size: 1em;
