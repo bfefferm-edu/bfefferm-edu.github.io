@@ -11,9 +11,9 @@ profile:
   more_info: >
     <p>Email: bfefferman [at] g.harvard.edu</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a third-year bioinformatics Ph.D. candidate at Harvard, with research focused upon machine learning, NLP, and generative AI in a biomedical context. I am interested in diverse research topics relevant to predictive modeling for precision oncology, particularly involving large language models. Recently, I have worked on both applied projects, for nucleotide and protein language modeling of promoter sequences targeting Glioblastoma, as well as theoretically-oriented machine learning. 
