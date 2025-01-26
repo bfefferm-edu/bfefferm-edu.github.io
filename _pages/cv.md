@@ -10,4 +10,11 @@ toc:
   sidebar: left
 ---
 
-<embed src="../assets/pdf/CV_BF_Website.pdf" width="800px" height="600px" type="application/pdf">
+<embed
+  src="../assets/pdf/CV_BF_Website.pdf"
+  type="application/pdf"
+  width="100%"
+  height="600px"
+/>
+
+
