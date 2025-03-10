@@ -50,9 +50,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false ## Setting to false
 socials_in_search: true
-bib_search: true
+bib_search: false ## Setting to false
 
 # Dimensions
 max_width: 930px
