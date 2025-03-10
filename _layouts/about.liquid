@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <!-- Header section at the top -->
-  <header class="post-header">
+  <header class="post-header" style="text-align: center;">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -17,9 +17,9 @@ layout: default
   </header>
 
   <!-- Main content with flex layout -->
-  <div class="row" style="display: flex; align-items: flex-start; margin-top: 0px; gap: 30px;">
+  <div class="row" style="display: flex; align-items: center; justify-content: center; margin-top: 0px; gap: 30px;">
     <!-- Content on the left -->
-    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: flex-start; padding-left: 30px;">
+    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: center; text-align: center;">
       <div class="clearfix">{{ content }}</div>
     </div>
     

@@ -2,10 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: <https://bmiphd.hms.harvard.edu/people/benjamin-fefferman>Harvard Bioinformatics & Integrative Genomics Ph.D. Program</a>
+subtitle: <a href="https://bmiphd.hms.harvard.edu/people/benjamin-fefferman">Harvard Bioinformatics & Integrative Genomics Ph.D. Program</a>
 
 profile:
-  align: left
+  align: center
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
