@@ -19,7 +19,7 @@ layout: default
   <!-- Main content with flex layout -->
   <div class="row" style="display: flex; align-items: flex-start; margin-top: 0px; gap: 30px;">
     <!-- Content on the left -->
-    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: flex-start;">
+    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: flex-start; padding-left: 30px;">
       <div class="clearfix">{{ content }}</div>
     </div>
     
@@ -27,7 +27,7 @@ layout: default
     {% if page.profile %}
       <div class="col" style="flex: 1; display: flex; flex-direction: column; align-items: center;">
         <!-- Profile image -->
-        <div class="profile" style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: -30px;">
+        <div class="profile" style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: -50px;">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
