@@ -24,6 +24,22 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      
+      <!-- Centered Title and Subtitle for About Page -->
+      {% if page.permalink == '/' %}
+      <div class="mx-auto text-center" style="position: absolute; left: 0; right: 0;">
+        <h1 class="nav-title mb-0" style="font-size: 1.5rem; font-weight: bold;">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        {% if page.subtitle %}
+          <p class="nav-subtitle mb-0" style="font-size: 0.9rem;">{{ page.subtitle }}</p>
+        {% endif %}
+      </div>
+      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"

@@ -7,8 +7,9 @@ layout: default
   <!-- Main content with flex layout -->
   <div class="row" style="display: flex; align-items: center; justify-content: center; margin-top: 0px; gap: 30px;">
     <!-- Content on the left -->
-    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: center; text-align: left; margin-top: -50px;">
-      <!-- Post header inside content column to align with paragraph -->
+    <div class="col" style="flex: 2; display: flex; flex-direction: column; justify-content: center; text-align: left; padding: 0 20px 0 30px;">
+      <!-- Post header commented out - moved to navigation bar -->
+      {% comment %}
       <header class="post-header" style="text-align: center; margin-bottom: 15px;">
         <h1 class="post-title">
           {% if site.title == 'blank' %}
@@ -20,7 +21,8 @@ layout: default
         </h1>
         <p class="desc">{{ page.subtitle }}</p>
       </header>
-      <div class="clearfix">{{ content }}</div>
+      {% endcomment %}
+      <div class="clearfix" style="text-align: justify; margin: 0 auto;">{{ content }}</div>
     </div>
     
     <!-- Profile image and email on the right -->
