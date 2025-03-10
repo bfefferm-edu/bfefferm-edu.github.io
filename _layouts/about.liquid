@@ -27,7 +27,7 @@ layout: default
     {% if page.profile %}
       <div class="col" style="flex: 1; display: flex; flex-direction: column; align-items: center;">
         <!-- Profile image -->
-        <div class="profile" style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: 10px;">
+        <div class="profile" style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-top: -30px;">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
@@ -45,7 +45,7 @@ layout: default
         
         <!-- Email/contact information below the profile picture -->
         {% if page.profile.more_info %}
-        <div class="more-info" style="margin-top: 15px; text-align: center; font-family: 'Courier New', Courier, monospace; font-weight: normal; letter-spacing: -0.5px; font-size: 1em; color: var(--global-text-color);">
+        <div class="more-info" style="margin-top: 15px; text-align: center; font-weight: normal; letter-spacing: -0.5px; font-size: 1em; color: var(--global-text-color);">
           {{ page.profile.more_info }}
         </div>
         {% endif %}
