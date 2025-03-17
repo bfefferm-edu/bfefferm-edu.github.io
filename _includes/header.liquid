@@ -27,8 +27,8 @@
       
       <!-- Centered Title and Subtitle for About Page -->
       {% if page.permalink == '/' %}
-      <div class="mx-auto text-center" style="position: absolute; left: 0; right: 0;">
-        <h1 class="nav-title mb-0" style="font-size: 1.5rem; font-weight: bold;">
+      <div class="mx-auto text-center" style="position: absolute; left: 0; right: 0; margin-bottom: 15px; padding-bottom: 15px;">
+        <h1 class="nav-title mb-0" style="font-size: 2rem; font-weight: bold;">
           {% if site.title == 'blank' %}
             <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
           {% else %}
@@ -36,7 +36,7 @@
           {% endif %}
         </h1>
         {% if page.subtitle %}
-          <p class="nav-subtitle mb-0" style="font-size: 0.9rem;">{{ page.subtitle }}</p>
+          <p class="nav-subtitle mb-0" style="font-size: 1.2rem;">{{ page.subtitle }}</p>
         {% endif %}
       </div>
       {% endif %}
@@ -62,21 +62,11 @@
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
-              {% if p.title == "blog" %}
+              {% if p.title == "blog" or p.permalink == '/' or p.title == about_title %}
                 {% continue %}
               {% endif %}
               {% if p.dropdown %}
@@ -148,7 +138,6 @@
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>

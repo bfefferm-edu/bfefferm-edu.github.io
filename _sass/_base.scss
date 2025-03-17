@@ -4,6 +4,9 @@
 
 // Typography
 
+html {
+  font-size: 20px; // Increase base font size from 16px to 20px
+}
 p,
 h1,
 h2,
@@ -17,6 +20,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: "Georgia", serif; // Set Georgia as the font for titles, subtitles, and main body text
 }
 
 hr {
@@ -198,11 +202,18 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
 
     p {
       display: inline-block;
       margin: 0;
+    }
+
+    .email-label {
+      font-family: "Georgia", serif; // Make the "Email:" label use Georgia
+    }
+
+    .email-address {
+      font-family: "Courier New", monospace; // Make the email address use "Courier New"
     }
   }
 }
