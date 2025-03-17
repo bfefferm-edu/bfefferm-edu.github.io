@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Research Overview & Interests
 permalink: /
 subtitle: <a href="https://bmiphd.hms.harvard.edu/people/benjamin-fefferman">Harvard Bioinformatics & Integrative Genomics Ph.D. Program</a>
 
