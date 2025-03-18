@@ -563,8 +563,8 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -572,8 +572,8 @@ footer.sticky-bottom {
   }
   
   h2.subtitle {
-    font-size: 1.8rem;
-    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
     text-transform: capitalize;
   }
 }
