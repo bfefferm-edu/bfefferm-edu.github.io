@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Research Overview & Interests
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://bmiphd.hms.harvard.edu/people/benjamin-fefferman">Harvard Bioinformatics & Integrative Genomics Ph.D. Program</a>
 
 profile:
   align: right
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year bioinformatics Ph.D. candidate at Harvard University, with research focused upon natural language processing and generative AI in a biomedical context. I am particularly interested in research topics relevant to precision oncology and drug discovery. Recently, I have worked on both applied projects, for nucleotide and protein language modeling of promoter sequences targeting Glioblastoma subtypes, as well as theoretically-oriented machine learning. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my Bachelor of Science at the University of Chicago, where my research centered about precision oncology and machine learning. My prior studies have also involved extensive context from the mathematical, natural, and data-driven sciences.
