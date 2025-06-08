@@ -1417,3 +1417,42 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.about-contact-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.about-contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .about-contact-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-contact-left,
+  .about-contact-right {
+    align-items: center;
+    width: 100%;
+  }
+  .about-contact-right {
+    margin-top: 2rem;
+  }
+}
