@@ -1,1 +1,147 @@
- 
+{
+  "basics": {
+    "name": "Benjamin Fefferman",
+    "label": "PhD Candidate, Bioinformatics & Integrative Genomics",
+    "email": "bfefferman@g.harvard.edu",
+    "summary": "Bioinformatics PhD candidate at Harvard University. Research in natural language processing, generative AI, computational genomics, and precision oncology."
+  },
+  "education": [
+    {
+      "institution": "Harvard Graduate School of Arts and Sciences",
+      "area": "Bioinformatics & Integrative Genomics",
+      "studyType": "PhD candidate"
+    },
+    {
+      "institution": "The University of Chicago",
+      "area": "Biological Sciences",
+      "studyType": "Bachelor of Science"
+    }
+  ],
+  "work": [
+    {
+      "position": "Researcher: Euclidean Neural Networks and GPU-accelerated Parallel Computation for Cellular Modeling",
+      "institution": "Dana Farber Cancer Institute",
+      "startDate": "2025-03",
+      "summary": "Research on neural networks and GPU computation for cellular modeling."
+    },
+    {
+      "position": "Researcher: Interpretable Neural Field Modeling for Spatial Transcriptomics",
+      "institution": "Massachusetts General Hospital",
+      "startDate": "2024-09",
+      "summary": "Research on neural field modeling for spatial transcriptomics."
+    },
+    {
+      "position": "Researcher: Evolutionary Modeling with Theoretical Physics",
+      "institution": "Dana Farber Cancer Institute",
+      "startDate": "2024-09"
+    },
+    {
+      "position": "Researcher: Natural Language Processing and Genomics Research for Precision Oncology",
+      "institution": "MIT Computer Science & Artificial Intelligence Laboratory",
+      "startDate": "2023-03"
+    },
+    {
+      "position": "Researcher: Computational Cancer Genomics Research - Cloud-Based WGS Characterization of Cancer Genomes",
+      "institution": "Broad Institute of MIT and Harvard",
+      "startDate": "2022-09"
+    },
+    {
+      "position": "Researcher: DNA Methylation & Hydroxymethylation Analysis for cfDNA biopsies",
+      "institution": "Department of Chemistry, The University of Chicago",
+      "startDate": "2022-09"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2024,
+      "title": "LABS: linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA.",
+      "journal": "Genome Biology",
+      "authors": ["Xiao-Long Cui", "Ji Nie", "Houxiang Zhu", "Krissana Kowitwattanach", "Alana V Beadell", "Diana C West-Szymanski", "Zhou Zhang", "Urszula Dougherty", "Akushika Kwesi", "Zifeng Deng", "Yan Li", "Danqing Meng", "Kevin Roggin", "Teresa Barry", "Ryan Owyang", "Ben Fefferman", "Chang Zeng", "Lu Gao", "Carolyn W T Zhao", "Yuri Malina", "Jiangbo Wei", "Melanie Weigert", "Wenjun Kang", "Ajay Goel", "Brian C-H Chiu", "Marc Bissonnette", "Wei Zhang", "Mengjie Chen", "Chuan He"]
+    },
+    {
+      "year": 2023,
+      "title": "Proteogenomic Analysis of Sequence, Structure, & Function for Modular MPRA Design in NGCMs.",
+      "type": "Presentation",
+      "event": "NCI Human Cancer Models Initiative"
+    },
+    {
+      "year": 2023,
+      "title": "Updates on massively parallel reporter assays that model intratumoral heterogeneity using NGCMs.",
+      "type": "Presentation",
+      "event": "NCI Human Cancer Models Initiative"
+    },
+    {
+      "year": 2022,
+      "title": "5-Hydroxymethylcytosine Profiles in Cancer - High-Throughput Epigenetics & Machine Learning Applied Toward Precision Oncology.",
+      "type": "Thesis"
+    },
+    {
+      "year": 2021,
+      "title": "Featured Speaker & Beckman Scholar, Beckman Symposium Presentation, Bio-Chem Speaker & Poster Presentation, Presenting research regarding bioinformatics analysis in colorectal cancer (CRC)"
+    },
+    {
+      "year": 2019,
+      "title": "Presenter & Undergraduate Researcher, Institute for Biophysical Dynamics, Presenting original research project and findings, Attending weekly research and advisory meetings"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "Unix / Linux / Bash", "JAX for parallel programming / multi-GPU simulations", "High Performance Computing", "SQL", "R", "Pythonic workflow management systems"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["Spanish", "English (native speaker)"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Harvard University - Longwood, MA",
+      "position": "Peer Mentoring",
+      "startDate": "2023-01",
+      "summary": "Graduate Student Mentor. Providing guidance for entering Ph.D. students regarding program-related questions, student life, etc. via individual meetings and e-mail correspondence. Completed GSAS training session required at the start of program."
+    },
+    {
+      "organization": "The University of Chicago",
+      "position": "Phoenix Tutoring",
+      "startDate": "2021-01",
+      "endDate": "2022-12",
+      "summary": "Section Coordinator. Led groups & served as volunteer tutor, teaching local Chicago students math, science, and reading during tutoring sessions."
+    },
+    {
+      "organization": "Comer Children's Hospital, University of Chicago Medical Center",
+      "position": "Comfort of Music Project",
+      "startDate": "2020-01",
+      "endDate": "2022-12",
+      "summary": "Founder and Volunteer. Created organization for sending musical performances to patients at Comer Children's Hospital. Performed violin for patients as volunteer musician."
+    },
+    {
+      "organization": "University of Chicago Medical Center",
+      "position": "McLean Center for Medical Ethics Lecture Series",
+      "startDate": "2020-01",
+      "endDate": "2021-12",
+      "summary": "Attendee. Attended lectures by doctors regarding medical ethics, including topics of diversity and inclusion in medicine, providing care with limited resources, and COVID-19's impact on healthcare."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921"
+    },
+    {
+      "title": "Matteucci Medal",
+      "date": "1921"
+    },
+    {
+      "title": "Max Planck Medal",
+      "date": "2029"
+    }
+  ],
+  "interests": [
+    "Machine learning, natural language processing, generative AI",
+    "Computational genomics, precision oncology",
+    "Data engineering, data science",
+    "Statistical data analysis",
+    "Drug discovery"
+  ]
+} 
