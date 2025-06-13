@@ -51,7 +51,7 @@
       "startDate": "2022-09"
     }
   ],
-  "publications": [
+  "Publications and Presentations": [
     {
       "year": 2024,
       "title": "LABS: linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA.",
@@ -123,20 +123,20 @@
       "summary": "Attendee. Attended lectures by doctors regarding medical ethics, including topics of diversity and inclusion in medicine, providing care with limited resources, and COVID-19's impact on healthcare."
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921"
-    },
-    {
-      "title": "Matteucci Medal",
-      "date": "1921"
-    },
-    {
-      "title": "Max Planck Medal",
-      "date": "2029"
-    }
-  ],
+//   "awards": [
+//     {
+//       "title": "Nobel Prize in Physics",
+//       "date": "1921"
+//     },
+//     {
+//       "title": "Matteucci Medal",
+//       "date": "1921"
+//     },
+//     {
+//       "title": "Max Planck Medal",
+//       "date": "2029"
+//     }
+// ],
   "interests": [
     "Machine learning, natural language processing, generative AI",
     "Computational genomics, precision oncology",
