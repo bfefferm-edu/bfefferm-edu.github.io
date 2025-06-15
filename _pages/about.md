@@ -9,11 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    Email: bfefferman [at] g.harvard.edu
+    <p>Email: bfefferman [at] g.harvard.edu</p>
     
-    Center for Life Science Boston
-    3 Blackfan St.
-    Boston, MA 02115
+    <p>Center for Life Science Boston<br>
+    3 Blackfan St.<br>
+    Boston, MA 02115</p>
 
 selected_papers: false
 social: false
