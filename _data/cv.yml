@@ -9,20 +9,9 @@
   contents:
     - title: PhD candidate
       institution: Harvard Graduate School of Arts and Sciences
-      # year: 1905
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
     - title: Bachelor of Science
       institution: The University of Chicago
-      # year: 1900
-      # description:
-        # - Description 1.
-        # - Description 2.
+
 - title: Research Interests
   type: nested_list
   contents:
@@ -38,33 +27,18 @@
     - title: Euclidean Neural Networks & GPU-accelerated Parallel Computation for Cellular Modeling 
       institution: Dana Farber Cancer Institute
       year: Spring 2025
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
     - title: Interpretable Neural Field Modeling for Spatial Transcriptomics
       institution: Massachusetts General Hospital
       year: Fall 2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-
     - title: Evolutionary Modeling with Theoretical Physics
       institution: Dana Farber Cancer Institute
       year: Fall 2024
-
     - title: Natural Language Processing and Genomics Research for Precision Oncology
       institution: MIT Computer Science & Artificial Intelligence Laboratory
       year: Spring 2023
-      # description:
-
     - title: Computational Cancer Genomics Research - Cloud-Based WGS Characterization of Cancer Genomes
       institution: Broad Institute of MIT and Harvard
       year: Fall 2022
-
     - title: DNA Methylation & Hydroxymethylation Analysis for cfDNA biopsies
       institution: Department of Chemistry, The University of Chicago
       year: Fall 2022
@@ -74,31 +48,27 @@
   contents:
     - year: 2024
       items:
-        - "LABS: linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA." - Genome Biology. 
-        - Authors - Xiao-Long Cui, Ji Nie, Houxiang Zhu, Krissana Kowitwattanach, Alana V Beadell, Diana C West-Szymanski, Zhou Zhang, Urszula Dougherty, Akushika Kwesi, Zifeng Deng, Yan Li, Danqing Meng, Kevin Roggin, Teresa Barry, Ryan Owyang, Ben Fefferman, Chang Zeng, Lu Gao, Carolyn W T Zhao, Yuri Malina, Jiangbo Wei, Melanie Weigert, Wenjun Kang, Ajay Goel, Brian C-H Chiu, Marc Bissonnette, Wei Zhang, Mengjie Chen, Chuan He"
-
+        - "LABS: linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA. - Genome Biology."
+        - "Authors - Xiao-Long Cui, Ji Nie, Houxiang Zhu, Krissana Kowitwattanach, Alana V Beadell, Diana C West-Szymanski, Zhou Zhang, Urszula Dougherty, Akushika Kwesi, Zifeng Deng, Yan Li, Danqing Meng, Kevin Roggin, Teresa Barry, Ryan Owyang, Ben Fefferman, Chang Zeng, Lu Gao, Carolyn W T Zhao, Yuri Malina, Jiangbo Wei, Melanie Weigert, Wenjun Kang, Ajay Goel, Brian C-H Chiu, Marc Bissonnette, Wei Zhang, Mengjie Chen, Chuan He"
     - year: 2023
       items:
-        - "Proteogenomic Analysis of Sequence, Structure, & Function for Modular MPRA Design in NGCMs." - Data Analysis Presentation to NCI Human Cancer Models Initiative
-        - "Updates on massively parallel reporter assays that model intratumoral heterogeneity using NGCMs." - Data Analysis Presentation to NCI Human Cancer Models Initiative
-
+        - "Proteogenomic Analysis of Sequence, Structure, & Function for Modular MPRA Design in NGCMs. - Data Analysis Presentation to NCI Human Cancer Models Initiative"
+        - "Updates on massively parallel reporter assays that model intratumoral heterogeneity using NGCMs. - Data Analysis Presentation to NCI Human Cancer Models Initiative"
     - year: 2022
       items:
-        - "5-Hydroxymethylcytosine Profiles in Cancer - High-Throughput Epigenetics & Machine Learning Applied Toward Precision Oncology." - Bachelor of Science Thesis
-
+        - "5-Hydroxymethylcytosine Profiles in Cancer - High-Throughput Epigenetics & Machine Learning Applied Toward Precision Oncology. - Bachelor of Science Thesis"
     - year: 2021
       items:
-        - Featured Speaker & Beckman Scholar
-        - Beckman Symposium Presentation
-        - Bio-Chem Speaker & Poster Presentation
-        - Presenting research regarding bioinformatics analysis in colorectal cancer (CRC)
-
+        - "Featured Speaker & Beckman Scholar"
+        - "Beckman Symposium Presentation"
+        - "Bio-Chem Speaker & Poster Presentation"
+        - "Presenting research regarding bioinformatics analysis in colorectal cancer (CRC)"
     - year: 2019
       items:
-        - Presenter & Undergraduate Researcher
-        - Institute for Biophysical Dynamics
-        - Presenting original research project and findings
-        - Attending weekly research and advisory meetings
+        - "Presenter & Undergraduate Researcher"
+        - "Institute for Biophysical Dynamics"
+        - "Presenting original research project and findings"
+        - "Attending weekly research and advisory meetings"
 
 - title: Skills
   type: nested_list
@@ -109,14 +79,14 @@
         - Unix / Linux / Bash
         - JAX for parallel programming / multi-GPU simulations
         - High Performance Computing
-        - SQL 
+        - SQL
         - R
         - Pythonic workflow management systems
     - title: Languages
       items:
         - Spanish
         - English (native speaker)
-        
+
 - title: Service & Leadership
   type: nested_list
   contents:
@@ -127,14 +97,12 @@
         - Graduate Student Mentor
         - Providing guidance for entering Ph.D. students regarding program-related questions, student life, etc. via individual meetings and e-mail correspondence
         - Completed GSAS training session required at the start of program
-    
     - title: Phoenix Tutoring
       institution: The University of Chicago
       year: 2021-2022
       items:
         - Section Coordinator
         - Led groups & served as volunteer tutor, teaching local Chicago students math, science, and reading during tutoring sessions
-    
     - title: Comfort of Music Project
       institution: Comer Children's Hospital, University of Chicago Medical Center
       year: 2020-2022
@@ -142,7 +110,6 @@
         - Founder and Volunteer
         - Created organization for sending musical performances to patients at Comer Children's Hospital
         - Performed violin for patients as volunteer musician
-    
     - title: McLean Center for Medical Ethics Lecture Series
       institution: University of Chicago Medical Center
       year: 2020-2021
