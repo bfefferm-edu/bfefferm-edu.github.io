@@ -35,7 +35,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Euclidean Neural Networks and GPU-accelerated Parallel Computation for Cellular Modeling 
+    - title: Euclidean Neural Networks & GPU-accelerated Parallel Computation for Cellular Modeling 
       institution: Dana Farber Cancer Institute
       year: Spring 2025
       # description:
