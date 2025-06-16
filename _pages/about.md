@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Research Overview & Interests
-permalink: /about/
+permalink: /
 subtitle: <a href="https://bmiphd.hms.harvard.edu/people/benjamin-fefferman">Harvard Bioinformatics & Integrative Genomics Ph.D. Program</a>
 
 profile:
@@ -27,8 +27,6 @@ latest_posts:
   enabled: false
   scrollable: true
   limit: 3
-
-repository: bfefferm-edu/bfefferm-edu.github.io
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
