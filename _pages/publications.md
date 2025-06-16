@@ -14,6 +14,4 @@ nav: false
 
 <div class="publications">
 
-{% bibliography %}
-
 </div>
