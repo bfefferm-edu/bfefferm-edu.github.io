@@ -27,6 +27,8 @@ latest_posts:
   enabled: false
   scrollable: true
   limit: 3
+
+repository: bfefferm-edu/bfefferm-edu.github.io
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
