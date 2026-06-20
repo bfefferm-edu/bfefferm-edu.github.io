@@ -18,10 +18,7 @@ profile:
 selected_papers: false
 social: false
 
-announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
+news: true # includes a list of news items shown at the bottom of the about page
 
 latest_posts:
   enabled: false
